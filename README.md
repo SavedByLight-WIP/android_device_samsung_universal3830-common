@@ -1,1 +1,1 @@
-# android_device_samsung_exynos850_common
+# Exynos850 Common Tree
