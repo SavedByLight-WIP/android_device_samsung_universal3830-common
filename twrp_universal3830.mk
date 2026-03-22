@@ -6,3 +6,5 @@ $(call inherit-product-if-exists, vendor/twrp/config/common.mk)
 
 # Inherit from universal3830 device
 $(call inherit-product, device/samsung/universal3830-common/common.mk)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/universal3830-common/recovery/root,recovery/root)
